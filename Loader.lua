@@ -86,11 +86,9 @@ Instances.TextLabel_3.Parent = Instances.Frame
 
 Instances.Sound.Name = "Sound"
 Instances.Sound.RollOffMode = Enum.RollOffMode.InverseTapered
-Instances.Sound.Playing = true
-Instances.Sound.isPlaying = true
-Instances.Sound.TimeLength = 3.3302947845804987
 Instances.Sound.SoundId = "rbxassetid://5072915476"
 Instances.Sound.Parent = Instances.Homebrew
+Instances.Sound:Play()
 
 coroutine.wrap(function()
 	local script = Instance.new("LocalScript", Instances.Homebrew)
