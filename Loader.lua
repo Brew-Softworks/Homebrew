@@ -124,7 +124,7 @@ wait(1)
 --[ Loader ]--
 pcall(task.spawn(function() -- BOOM SHAKALAKA!!
     if game.GameId == 4096039463 then
-        loadstring(game:HttpGet(""))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Brew-Softworks/Homebrew/refs/heads/main/Freedom%20War/osrc.lua"))()
     end
 end))
 
